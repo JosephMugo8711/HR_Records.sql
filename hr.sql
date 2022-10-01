@@ -40,13 +40,13 @@ FROM Employee_Table
 WHERE salary >
 (SELECT AVG(salary) FROM Employee_Table);
 -- Write a query to display the employee id, first name, and salary of the employees who earn a salary that is higher than the salary of all the shipping clerks (JOB_ID = HP122). Sort the results of the salary in ascending order.
-SELECT emp_id, f_name, salary
-FROM Employee_Table
-WHERE salary >
-(SELECT );
+-- SELECT emp_id, f_name, salary
+-- FROM Employee_Table
+-- WHERE salary >
+-- (SELECT );
 
 -- Write a query to display the first name, employee id, and salary of the first three employees with highest salaries.
-SELECT f_name,emp_id,salary
-FROM Employee_Table
-WHERE salary = 
-(SELECT MAX(salary) FROM Employee_Table   LIMIT  3);
+-- SELECT f_name,emp_id,salary
+-- FROM Employee_Table
+-- WHERE salary = 
+-- (SELECT MAX(salary) FROM Employee_Table   LIMIT  3);
